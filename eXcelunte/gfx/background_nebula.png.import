@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/background_nebula.png-d769d839534593abc213f3c2f6b4510b.stex"
+path="res://.import/background_nebula.png-91aba210de3f01b359391710292c4580.stex"
 
 [deps]
 
-source_file="res://GFX/background_nebula.png"
-dest_files=[ "res://.import/background_nebula.png-d769d839534593abc213f3c2f6b4510b.stex" ]
+source_file="res://gfx/background_nebula.png"
+dest_files=[ "res://.import/background_nebula.png-91aba210de3f01b359391710292c4580.stex" ]
 
 [params]
 

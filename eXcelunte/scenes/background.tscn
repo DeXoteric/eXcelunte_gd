@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scripts/scrolling_background.gd" type="Script" id=1]
-[ext_resource path="res://GFX/background_nebula.png" type="Texture" id=2]
+[ext_resource path="res://gfx/background_nebula.png" type="Texture" id=2]
 
 [sub_resource type="ParticlesMaterial" id=1]
 
@@ -43,7 +43,7 @@ anim_offset_random = 0.0
 anim_loop = false
 _sections_unfolded = [ "Emission Shape", "Gravity", "Initial Velocity", "Scale" ]
 
-[node name="background" type="Node2D" index="0"]
+[node name="background" type="Node" index="0"]
 
 [node name="parallax_background" type="ParallaxBackground" parent="." index="0"]
 
@@ -78,6 +78,7 @@ region_rect = Rect2( 0, 0, 1200, 4000 )
 
 position = Vector2( 540, -50 )
 rotation = 1.5708
+scale = Vector2( 1, 1 )
 emitting = true
 amount = 500
 lifetime = 15.0
