@@ -78,9 +78,8 @@ region_rect = Rect2( 0, 0, 1200, 4000 )
 
 position = Vector2( 540, -50 )
 rotation = 1.5708
-scale = Vector2( 1, 1 )
 emitting = true
-amount = 500
+amount = 300
 lifetime = 15.0
 one_shot = false
 preprocess = 15.0
